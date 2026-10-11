@@ -3,14 +3,6 @@
 Trabalho de Desenvolvimento Web Back-End (UNINTER).
 Tecnologias: Java 17, Spring Boot 3, Spring Data JPA, H2 (ou MySQL), Postman.
 
-## Como executar
-1. Abra a pasta no IntelliJ / Eclipse / VS Code (projeto Maven) e execute `BaoziStoreApplication`,
-   ou pelo terminal: `mvn spring-boot:run`
-2. A API sobe em `http://localhost:8080`
-3. Console do banco H2: `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:baozidb`, usuario `sa`, sem senha)
-
-Para usar MySQL, edite `src/main/resources/application.properties`.
-
 ## Endpoints (clientes, produtos e pedidos)
 | Metodo | Rota | Descricao |
 |---|---|---|
